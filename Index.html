@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="Portfoliocss.css">
+  
+    <script src="https://kit.fontawesome.com/2924b7fdc8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-----------Header-------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Portfolio.</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-solid fa-bars" onclick="openmenu()"></i>            
+            </nav>
+
+          <!-----------Home-------------->
+          <section class="home" id="home">
+            <div class="headertext">
+                <div class="items">
+                <h3>Hi, I am </h3>
+                <h1><span>Safoora</span><br> Firdous From India</h1>
+                <h3>And I'm a <span>Frontend Developer</span></h3>
+           
+            </div>
+            </div>
+    </section>
+        <!-------------About------------>
+        <div id="about">
+            <div class="contain">
+                <div class="row">
+                   <div class="about-col-1">
+                    <img src="file:///C:/Users/safoo/OneDrive/Desktop/Safoora%20Image.jpg" alt="">
+                   </div>
+                   <div class="about-col-2">
+                    <h1 class="info">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repellendus dolorum omnis consequatur beatae minus, animi voluptatum, incidunt reprehenderit ut eius. Deleniti doloribus corrupti pariatur, vel quod omnis excepturi dolor rerum consequatur dicta vitae magni, quibusdam hic doloremque  Doloremque ut reiciendis quae dolores nisi cum aperiam!</p>
+
+                    <div class="titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><Span>Programming</Span><br>C++ Program Developer</li>
+                            <li><span>Web Development</span><br>Web Developer</li>
+                            <li><span>App Development</span><br>Building Android/ioS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><Span>2023 - Current</Span><br>Web technology, Advanced C++, Working on projects</li>
+                            <li><span>2021 - 2022</span><br>Advance C++, Data structures and Algorithms </li>
+                            <li><span>2020 - 2021 </span><br>Basic languages such as C, DBMS, MYsql </li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><Span>2023-currently</Span><br>SYCSE From MMMUT College.</li>
+                        <li><span>2021-2022</span><br>FYCSE from MMMUT College.</li>
+                        <li><span>2020-2021</span><br>12th Science from Jawahar Navodaya Vidyalaya Kashmir.</li>
+                    </ul>
+            </div>
+            </div>
+        </div>
+        <!------------------Services------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i><br>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque enim, nobis accusamus quae vero esse atque earum! Aspernatur, ut quos?</p></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i><br>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque enim, nobis accusamus quae vero esse atque earum! Aspernatur, ut quos?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i><br>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque enim, nobis accusamus quae vero esse atque earum! Aspernatur, ut quos?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Portfolio--------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title ">My Work</h1>
+            <div class="work-list">
+              <div class="work">
+                <img src="file:///C:/Users/safoo/OneDrive/Desktop/Image%202.jpg" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.<br>Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="file:///C:/Users/safoo/OneDrive/Desktop/Music%20App.jpg" >    
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.<br>Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div> 
+            </div>
+              <div class="work">
+                <img src="file:///C:/Users/safoo/OneDrive/Desktop/Online%20Shopping%20.jpg" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.<br>Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>             
+            </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---------------contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                      <h1 class="sub-title">Contact Me</h1>
+                      <p>I am a FRONTEND DEVELOPER - Creating bold and brave interface design for companies</p>
+                      <p><i class="fa fa-solid fa-paper-plane"></i> contact@example.com</p>
+                      <p><i class="fa fa-solid fa-phone"></i> 0123456789</p>
+                      <div class="social-icons">
+                       <a href="https://www.facebook.com/"><i class="fa fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/i/flow/login"><i class="fa fa-brands fa-twitter"></i></a>                     
+                        <a href="https://www.instagram.com/"><i class="fa fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/safoora-firdous-6215a923b/"><i class="fa fa-brands fa-linkedin"></i></a>        
+                    </div>
+                      <a href="file:///C:/Users/safoo/OneDrive/My%20Simple%20CV.pdf" target="_blank" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                      <form class="submit-to-google-sheet">
+
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                      </form>
+                      <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Safoora Firdous.All rights reserved.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+         function openmenu(){
+             sidemeu.style.right ="0";
+         }
+         function closemenu(){
+             sidemeu.style.right ="-200px";
+         }
+
+    </script>
+    <script>
+        const scriptURL ='https://script.google.com/macros/s/AKfycbzNp33wdIsEEG6Zk2SHnkaHENG_kjxJGyCdQJHEgr0xFxsg3DJNRrU7MpgWN9Fojoms/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+               msg.innerHTML =" Message sent successfully" 
+               setTimeout(function(){
+                   msg.innerHTML = ""
+               },5000)
+               form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
